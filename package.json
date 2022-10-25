@@ -1,0 +1,20 @@
+{
+  "name": "cpploger",
+  "version": "1.0.0",
+  "description": "A logger for node.js projects based on famous C++ plog logger which supports circular logging with predefined file size.",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "keywords": [],
+  "author": "Monhi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-gyp": "^9.3.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^5.0.0"
+  }
+}
