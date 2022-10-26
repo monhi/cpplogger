@@ -46,9 +46,9 @@ The same contents will be saved on the plog.log file as I set the name of log fi
 
 ## Screenshots
 
-| uBlock Origin | Dark Reader |
-|---|---|
-| <img src="https://github.com/monhi/cpplogger/blob/main/image.png" width="405"> | 
+
+
+ <img src="https://github.com/monhi/cpplogger/blob/main/image.png" width="405"> 
 
 
 ## init function settings
