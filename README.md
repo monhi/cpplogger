@@ -46,7 +46,8 @@ The same contents will be saved on the plog.log file as I set the name of log fi
 
 ## Screenshots
 
-
+In the following image you can see both the console output and plog.log file contents.
+A log command will be shown on both console and log file.
 
  <img src="https://github.com/monhi/cpplogger/blob/main/image.png" width="405"> 
 
