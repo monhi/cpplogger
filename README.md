@@ -1,7 +1,7 @@
 # cpplogger
 This is a native Node.js package that can be used for logging purposes.
 But instead of just writing contents on the monitor, it also writes the contents into circular files.
-As I was in need of this library to find the behaviour of my IoT projects, I developed it.
+As I was in need of this library to find the behaviour of my IoT devices, I developed it.
 The core is a C library module based on following repository:
 
 https://github.com/SergiusTheBest/plog
@@ -38,7 +38,7 @@ cpplogger.LOGE("Log Error Mode.");
 cpplogger.LOGF("Log Fatal Mode.");
 ```
 
-By running following command some log files will be shown on the monitor.
+By running following command some log contents will be shown on the monitor.
 ```
 node index.js
 ```
@@ -47,7 +47,7 @@ The same contents will be saved on the plog.log file as I set the name of log fi
 ## Screenshots
 
 In the following image you can see both the console output and plog.log file contents.
-A log command will be shown on both console and log file.
+A log record will be shown on both console and log file.
 
  <img src="https://github.com/monhi/cpplogger/blob/main/image.png" width="405"> 
 
