@@ -2,14 +2,14 @@
 This is a native Node.js package that can be used for logging purposes.
 But instead of just writing contents on the monitor, it also writes the contents into circular files.
 As I was in need of this library to find the behaviour of my IoT devices, I developed it.
-The core is a C library module based on following repository:
+The core is a C library module based on the following repository:
 
 https://github.com/SergiusTheBest/plog
 
 It uses node-gyp and node-addon-api packages to build.
 
 ## How to build the project
-First you are supposed to install Node.js on your machine. then, to build the project run following commands:
+First you are supposed to install Node.js on your machine. then, to build the project run the following commands inside the project folder:
 ```
 npm install
 npm run build
